@@ -1,0 +1,1031 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 400px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 400px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+.navbar-fixed-top
+{
+	height:80px;
+	padding:20px;
+	background-color:black;
+}
+.navbar-brand a
+{
+	color:white;
+}
+.active a
+{
+	color:black;
+}
+.navbar-header a
+{
+	font-size:32px;
+	font-weight:bold;
+}
+#navbar a
+{
+	color:white;
+}
+#navbar li
+{
+	font-size:14px;
+	color:white;
+}
+#navbar .dropdown-menu li
+{
+	background-color:black;
+	font-size:14px;
+	font-weight:bold;
+	font-family:sans-serif;
+	color:white;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 8px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.customreg
+{
+	position:relative;
+	width:800px;
+	padding:12px;
+	font-size:12px;
+	font-weight:bold;
+	border:2px solid white;
+	border-radius:4px;
+	animation:animation1 forwards;
+	animation-duration:1s;
+}
+#foot-data{
+    margin:30px;
+    margin-top: 100px;
+    padding: 10px;
+	color:white;
+  }
+.pull-right
+{
+    margin: 20px; 
+}
+.pull-right a
+{
+	text-decoration:none;
+	color:white;	  
+}
+.foot
+{
+	margin-left:-100px;
+	margin-bottom:-110px;
+	width:1368px;
+	height:250px; 
+	background-color:black;
+}
+.nav-fixed-down	
+{
+	height: 60px;
+	font-size: 42px;
+	margin-left: 100px;
+	color: #000;
+	font-family:Impact,Charcoal,sans-serif;
+}
+.logo
+{
+	height: 60px;
+	widows: 60px;
+	margin-left: 70px;
+}      
+.content 
+{
+   margin-top:90px;
+}
+.first
+{
+	background-color:black;  
+	width :100%;
+}
+/*.navul-down 
+{
+   list-style-type: none;
+   margin: 10px;
+   padding: 0x;
+   overflow: hidden;
+   margin-top: -10px;
+}*/
+.nav-justified
+{
+   list-style-type: none;
+   padding: 0x;
+   overflow: hidden;
+   margin-top: -10px;
+}
+.nav-down 
+{
+	float: left;
+	border-right:0px solid #bbb;
+}
+.nav-down a
+{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 0px;
+	text-decoration: none;
+    font-family:Sans-serif;
+    font-size:14px;
+    margin-left: 60px;
+    height : 40px;
+}
+.nav-down a:hover:not(.active) 
+{
+	background-color: #111;
+}
+.active
+{
+	background-color: none;
+}
+.le
+{
+	height : 100px; 
+}
+.len 
+{
+	height: 10000px;
+}
+#myCarousel
+{
+	margin-top:2px;  
+}
+.customreg:hover
+{
+	border:2px solid red;
+}
+#customregbut
+{
+	position:relative;
+	width:300px;
+	padding:12px;
+	letter-spacing: 0px;
+	font-size:14px;
+	font-weight:bold;
+	color:white;
+	border-radius:4px;
+	animation:animation2 forwards;
+	animation-duration:1s;
+	margin-left:150px;
+}
+@keyframes animation1
+{
+	from{left:-500px;}
+	to{left:0px;}
+}
+@keyframes animation2
+{
+	from{bottom:-200px;}
+	to{bottom:0px;}
+}
+.headpart
+{
+	position:relative;
+	color:white;
+	font-size:50px;
+	font-weight:bold;
+	font-family:Impact;
+	animation:animation3 forwards;
+	animation-duration:1s;
+}
+
+@keyframes animation3
+{
+	from{right:-500px;}
+	to{right:0px;}
+}
+
+
+body {
+  padding-top: 1px;
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Customize the nav-justified links to be fill the entire space of the .navbar */
+
+.nav-justified {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.nav-justified > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #777;
+  text-align: center;
+  background-color: #e5e5e5; /* Old browsers */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#e5e5e5));
+  background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+  background-image:      -o-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+  background-image:         linear-gradient(to bottom, #f5f5f5 0%,#e5e5e5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+  background-repeat: repeat-x; /* Repeat the gradient */
+  border-bottom: 1px solid #d5d5d5;
+}
+.nav-justified > .active > a,
+.nav-justified > .active > a:hover,
+.nav-justified > .active > a:focus {
+  background-color: #ddd;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+          box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+.nav-justified > li:first-child > a {
+  border-radius: 5px 5px 0 0;
+}
+.nav-justified > li:last-child > a {
+  border-bottom: 0;
+  border-radius: 0 0 5px 5px;
+}
+
+@media (min-width: 768px) {
+  .nav-justified {
+    max-height: 52px;
+  }
+  .nav-justified > li > a {
+    border-right: 1px solid #d5d5d5;
+    border-left: 1px solid #fff;
+  }
+  .nav-justified > li:first-child > a {
+    border-left: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  .nav-justified > li:last-child > a {
+    border-right: 0;
+    border-radius: 0 5px 5px 0;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+#sohamdet
+{
+	display:none;
+}
+#amitdet
+{
+	display:none;
+}
+#anshuldet
+{
+	display:none;
+}
+#adeshdet
+{
+	display:none;
+}
+/*#soham:active+#sohamdet
+{
+	display:block;
+}
+#amit:active+#amitdet
+{
+	display:block;
+}
+#adesh:active+#adeshdet
+{
+	display:block;
+}
+#anshul:active+#anshuldet
+{
+	display:block;
+}*/
+#manip
+{
+	position:relative;
+	top:-35px;
+	right:-20px;
+}
+/* Overridden css style for register.html  STARTED*/ 
+#details{
+		letter-spacing:120px;
+		margin-top:30px;
+	}
+.headpart{
+ margin-right:100px;
+}
+#customregbut{
+ margin-right:160px;	
+}
+#check-data a{
+	margin-right:20px;	
+}
+
+#checkbox{
+
+}
+#reg-font{
+		margin-top:100px;
+		margin-left:105px;
+}
+/* Overridden css style for register.html  STOPPED*/
+
+
+/* Overridden css style for login.html  STARTED*/
+.form-signin-heading{ 
+      margin-top: 100px;
+
+    }
+/* Overridden css style for login.html  STOPPED
+
+===============================================================
+
+/* Overridden css style for bookmainpage.html */
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+.book {
+  padding-top: 70px;
+}
+
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+  border: 0;
+}
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+  }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+
+
+/*
+ * Main content
+ */
+
+.main1 {
+	display:none;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main1 {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main1 .page-header {
+  margin-top: 0;
+}
+
+.main2 {
+	display:none;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main2 {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main2 .page-header {
+  margin-top: 0;
+}
+
+.main3 {
+	display:none;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main3 {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main3 .page-header {
+  margin-top: 0;
+}
+
+.main4 {
+	display:none;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main4 {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main4 .page-header {
+  margin-top: 0;
+}
+
+.main5 {
+	display:none;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main5 {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main5 .page-header {
+  margin-top: 0;
+}
+
+.main6 {
+	display:none;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main6 {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main6 .page-header {
+  margin-top: 0;
+}
+
+.main7 {
+	display:none;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main7 {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main7 .page-header {
+  margin-top: 0;
+}
+
+.main8 {
+	display:none;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main8 {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main8 .page-header {
+  margin-top: 0;
+}
+
+.main9 {
+	display:none;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main9 {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main9 .page-header {
+  margin-top: 0;
+}
+
+.main10 {
+	/*display:none;*/
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main10 {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main10 .page-header {
+  margin-top: 0;
+}
+
+.main101 {
+	/*display:none;*/
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main101 {
+    left: -100px;
+  }
+}
+.main101 .page-header {
+  margin-top: 0;
+}
+
+.main11 {
+	display:none;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main11 {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main11 .page-header {
+  margin-top: 0;
+}
+
+.main12 {
+	display:none;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main12 {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main12 .page-header {
+  margin-top: 0;
+}
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+/*=========================
+  Icons
+ ================= */
+
+/* footer social icons */
+ul.social-network {
+    list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.social-icon-back-color {
+ background-color: #CCC;   
+
+}
+
+#foot-data-part
+{
+	color: white;
+	margin-left: 15px;
+}
+#foot-first{
+		height:8px;
+	}
+.lol{
+	color:white;
+	font-size: 15px;
+	margin-left:15px;
+}
+.backtop
+{
+	text-decoration:none;
+	color:#FFF; 	
+}
+
+.big-btn{
+padding: 10px 0px 11px 0px;
+width: 215px;
+margin-top:5px;
+}
+
+.big-btn i{
+font-size: 65px;
+margin-right: 0px !important;
+}
+.big-btn strong{
+font-size: 25px;
+text-shadow: 1px 2px 0px #34659B;
+color: #fff;
+line-height: 24px;
+}
+.big-btn .btn-text{
+margin-top:6px;
+}
+
+.big-btn small{font-size: 75%;}
+
+.android-btn{
+
+width: 240px;
+padding: 13px 17px 13px 0px;
+background-color: #000;
+border-color: #000;
+
+}
+.android-btn:hover{
+background-color: #272727;
+}
+
+.android-btn i{
+font-size: 55px;
+}
+
+.android-btn .btn-text{
+margin-top: 0px;
+}
+
+.android-btn strong{
+font-size: 25px;
+text-shadow: none;
+color: #fff;
+line-height: 24px;
+}
+
+.windows-btn{
+background-color:#008A00;
+width: 235px;
+padding: 13px 5px 13px 10px;
+border-color: #055805;
+}
+
+.windows-btn:hover{
+background-color: #008A00;
+}
+.windows-btn .btn-text{
+text-shadow: none;
+font-size: 26px;
+line-height: 25px;
+}
+. window-shift{
+	margin-right:100px;		
+}
+.footer-data{
+	margin-top:-100px;
+	margin-left:1000px;	
+}
+@keyframes animation7
+{
+	0%{top:-100px;}
+	100%{top:-0px;}
+}
+#sell
+{
+	background-image:url("sell.jpg");
+}
+#input-reg-select
+{
+	width:560px;
+	height:40px;
+}
+#input-reg-select1
+{
+	width:1060px;
+	height:40px;
+}
+#checkbox1
+{
+	width:20px;
+	margin-top:0px;
+	margin-right: 20px;
+	height:20px;
+}
+#searchhide
+{
+	height:300px;
+	width:538px;
+	left:265px;
+	position:relative;
+	background-color:white;
+	border-radius:20px;
+	display:none;
+	animation:animation4 forwards;
+	animation-duration:1s;
+	
+}
+@keyframes animation4
+{
+	from{top:-300px;}
+	to{top:0px;}
+}
+#android
+{
+	width:1360px;
+	height:768px;
+	left:-110px;
+	position:relative;
+	background-color:orange;
+	animation:animation5 forwards;
+	animation-duration:2.6s;
+	display:none;
+}
+@keyframes animation5
+{
+	0%{top:-800px;}
+	25%{top:0px;}
+	50%{top:0px;}
+	75%{top:-100px;}
+	100%{top:-800px;}
+}
